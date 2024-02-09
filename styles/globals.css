@@ -1,0 +1,159 @@
+body {
+  background-color: #e5e5e5;
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* NavBar */
+
+.Navbar {
+  background-color: #f2935c;
+  border-bottom: 1px groove;
+  border-right: 1px groove;
+}
+
+.userimage {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.amg {
+  margin: 1px;
+}
+
+/* Main */
+
+.triangleOrange {
+  width: 0;
+  height: 0;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  border-bottom: 45px solid #f38344;
+  transform: rotate(-30deg);
+}
+
+.triangleGreen {
+  width: 0;
+  height: 0;
+  border-left: 40px solid transparent; /* تزيين الحد الأيسر بالشفافية */
+  border-right: 40px solid transparent; /* تزيين الحد الأيمن بالشفافية */
+  border-bottom: 70px solid #5dbaa5; /* تزيين الحد السفلي بلون محدد */
+  transform: rotate(-90deg);
+  margin-top: 17px;
+  margin-right: -13px;
+}
+
+.image1 {
+  margin-right: 50px;
+  z-index: 1;
+  transform: translateY(70%);
+  position: absolute;
+}
+
+.image-1 {
+  margin-right: 50px;
+  z-index: 1;
+  transform: translateY(30%);
+  position: absolute;
+}
+.card {
+  padding: 10px;
+  border-top-left-radius: 500px;
+  border-bottom-left-radius: 500px;
+  border-top-right-radius: 40px;
+  background-color: #999bbf;
+  border: none;
+  margin-top: 100px;
+}
+
+.cardGreen {
+  padding: 10px;
+  border-top-left-radius: 500px;
+  border-bottom-left-radius: 500px;
+  border-top-right-radius: 40px;
+  background-color: #7fc4a7;
+  border: none;
+  margin-top: 50px;
+}
+
+.circleGreen {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  background-color: #03a688;
+  outline: 2px dashed rgba(255, 255, 255, 0.5);
+  outline-offset: 5px;
+  margin: 5px;
+}
+
+.badge {
+  border-radius: 100px;
+  font-weight: 500;
+  padding: 9px 25px;
+  font-size: 14px;
+  background-color: #7172a8;
+  height: 27px;
+}
+
+.badge1 {
+  border-radius: 100px;
+  font-weight: 500;
+  padding: 5px 25px;
+  font-size: 14px;
+  background-color: #b7a986;
+  height: 27px;
+}
+
+.badge2 {
+  border-radius: 100px;
+  font-weight: 500;
+  padding: 5px 25px;
+  font-size: 14px;
+  background-color: #b68f8a;
+  height: 27px;
+}
+
+.daire {
+  border-radius: 50%;
+  width: 180px;
+  height: 180px;
+  margin: 10px;
+  padding: 10px;
+  background-color: #999bbf;
+  border: none;
+  box-shadow: inset 0px -10px 5px -10px rgba(0, 0, 0, 0.75);
+  margin-top: 60px;
+  z-index: 1;
+}
+
+.card1 {
+  background-color: #f2935c;
+  min-width: 300px;
+  border-radius: 50px;
+  transform: translateY(-20%);
+}
+
+.texts {
+  margin-top: 120px;
+  text-align: center;
+}
+
+span {
+  font-size: 14px;
+  font-weight: 0;
+}
+.abb {
+  transform: translateY(-125%);
+}
+
+.daire1 {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+
+  background-color: #999bbf;
+  border: none;
+  box-shadow: inset 0px -10px 5px -10px rgba(0, 0, 0, 0.75);
+}
