@@ -4,7 +4,7 @@ const Ana = () => {
   return (
     <div className='container' dir='rtl'>
       <div className='row mt-4'>
-        <div className='col-lg-8 p-3'>
+        <div className='col-lg-8  p-3'>
             <div className='row '>
               <div className='col-lg-1 d-flex flex-column'>
                 <div className='triangleOrange'></div>
@@ -33,8 +33,11 @@ const Ana = () => {
                     </div>
                   </div>
                 </div>
-                <div className='mt-1'>
-                  <img src='/16.jpg' alt='' width={250}/>
+                <div className='mt-2 d-flex'>
+                  <img src='/button.jpg' alt='' width={40} height={40}/>
+                  <button className='button1 text-start p-1'>
+                    <span className='ms-2 buttonText'>اشترك في هذا الحدث</span>
+                  </button>
                 </div>
               </div>
             </div>
@@ -90,8 +93,8 @@ const Ana = () => {
               </div>
             </div>
           </div>
-          <div className='col d-flex justify-content-center'>
-            <img className='abb' src="/14.jpg"   />
+          <div className='col mt-1 d-flex justify-content-center'>
+            <img className='abb' src="/people.png"   />
           </div>
         </div>
       </div>

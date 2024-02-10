@@ -8,7 +8,7 @@ body {
 /* NavBar */
 
 .Navbar {
-  background-color: #f2935c;
+  background-color: #f49865;
   border-bottom: 1px groove;
   border-right: 1px groove;
 }
@@ -62,7 +62,7 @@ body {
   padding: 10px;
   border-top-left-radius: 500px;
   border-bottom-left-radius: 500px;
-  border-top-right-radius: 40px;
+  border-top-right-radius: 60px;
   background-color: #999bbf;
   border: none;
   margin-top: 100px;
@@ -72,7 +72,7 @@ body {
   padding: 10px;
   border-top-left-radius: 500px;
   border-bottom-left-radius: 500px;
-  border-top-right-radius: 40px;
+  border-top-right-radius: 60px;
   background-color: #7fc4a7;
   border: none;
   margin-top: 50px;
@@ -156,4 +156,20 @@ span {
   background-color: #999bbf;
   border: none;
   box-shadow: inset 0px -10px 5px -10px rgba(0, 0, 0, 0.75);
+}
+
+.button1 {
+  height: 40px;
+  width: 180px;
+  border: none;
+  background-color: #f6d85c;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+
+.buttonText {
+  font-size: 17px;
 }

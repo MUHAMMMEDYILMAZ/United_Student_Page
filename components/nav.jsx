@@ -12,7 +12,7 @@ const Nav = () => {
                       <span className='ml-2 me-2 text-white'> اهلا وسهلا بك محمد محمد</span>
                   </div>
                   <div className=' my-2 px-2'>
-                      <Image className='' src="/logo.jpg" alt="logo" width={65} height={50} />
+                      <Image className='' src="/logo-rem.png" alt="logo" width={65} height={50} />
                   </div>
               </div>
                   
